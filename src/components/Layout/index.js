@@ -1,7 +1,12 @@
+import Sidebar from '../Sidebar';
 import './index.scss';
 
 const Layout = () => {
-  return <>Obota</>
+  return (
+  <div>
+    <Sidebar />
+  </div>
+  )
 }
 
-export default Layout
+export default Layout;
