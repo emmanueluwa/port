@@ -166,3 +166,26 @@ body {
 
 
 
+@media screen and (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .text-zone {
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;
+    align-items: center;
+  }
+
+  .project-card img {
+    flex-grow: 1;
+  }
+
+  .room__preview {
+    width: 80%;
+  }
+}

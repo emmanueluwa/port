@@ -184,3 +184,97 @@
       }
     }
 }
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    display: grid;
+    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-zone {
+    width: 100%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .resources {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+
+    h2 {
+      transform: translateX(-5%);
+      text-align: center;
+      display: none;
+    }
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 23px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: red;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: 30px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore';
+      color: red;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+  }
+
+  h2 {
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+    padding-bottom: 5rem;
+    left: 10rem;
+    transform: translateX(15%);
+    
+  }
+
+  .stage-cube-cont {
+    display: none;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .project-card img {
+    flex-grow: 1;
+  }
+
+  .room__preview {
+    width: 80%;
+  }
+
+
+}
