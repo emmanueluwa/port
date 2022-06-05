@@ -10,7 +10,7 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
   //arrays for animated words
   const nameArray = [' ', 'E','m', 'm', 'a', 'n', 'u', 'e', 'l']
-  const jobArray = ['a', ' ', 'f', 'u', 'l', 'l', ' ', 's', 't', 'a', 'c', 'k', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+  const jobArray = ['a', ' ', 'S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r','.']
 
   useEffect(() => {
       return setTimeout(() => {
@@ -36,7 +36,7 @@ const Home = () => {
                 strArray={jobArray}
                 index={22}/>
                 </h1>
-                <h2>Full Stack Developer</h2>
+                <h2>Software Engineer</h2>
             </div>            
             <div className="resources">
                 <div className="projects">

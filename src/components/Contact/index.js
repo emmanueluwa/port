@@ -26,7 +26,7 @@ const Contact = () => {
                       />
                     </h1>
                     <p>
-                      I am interested in both full-time and freelance opportunities.
+                      I am interested in both contract and freelance opportunities.
                       If you have any other requests or questions, please do not hesitate 
                       to reach out to me by email at: emmanuel@fulodev.com
 

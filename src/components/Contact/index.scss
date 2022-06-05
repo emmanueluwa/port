@@ -1,0 +1,23 @@
+.text-zone {
+  position: relative;
+  left: 20%;
+  // margin-top: 20rem;
+  // transform: translateY(-50%);
+  // width: auto;
+  // max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35rem;
+}
+
+p {
+  color: #8d8d8d;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+  padding-bottom: 5rem;
+  justify-content: center;
+}

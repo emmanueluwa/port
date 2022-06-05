@@ -1,4 +1,5 @@
 import Sidebar from '../Sidebar';
+import Footer from '../Footer';
 import './index.scss';
 import { Outlet } from 'react-router-dom'
 
@@ -17,9 +18,18 @@ const Layout = () => {
         <span className='bottom-tag-html'>&lt;/html&gt;</span>
         </span>
 
+
       </div>
+        <br />
+        <br />
       
+      <footer>
+        <Footer />
+
+      </footer>
+
     </div>
+
   )
 }
 
