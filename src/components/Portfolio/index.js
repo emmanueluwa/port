@@ -41,15 +41,19 @@ const About = () => {
             </div>
             <div className="project-container">
                 <div className="project-card">
-                    <Link to=''>
+                    <Link to='https://pets.fulodev.com/'>
                         <img className="project-image" src={akita} alt='first project'/>
-                        <h3>Project 1</h3>
+                        <div className='content'>
+                            <h3>Petful</h3>
+                        </div>
                     </Link>
                 </div>
                 <div className="project-card">
-                    <Link to=''>
+                    <Link to='https://www.portfolio.fulodev.com/'>
                         <img className="project-image" src={design} alt='second project'/>
-                        <h3>Project 2</h3>
+                        <div className='content'>
+                            <h3>Figma Design</h3>
+                        </div>
                     </Link>
                 </div>
             </div>
