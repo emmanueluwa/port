@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
 import design from '../../assets/images/design.jpg'
 import akita from '../../assets/images/akita.jpg'
-import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -41,20 +40,20 @@ const About = () => {
             </div>
             <div className="project-container">
                 <div className="project-card">
-                    <Link to='https://pets.fulodev.com/'>
+                    <a rel="noopener noreferrer" target="_blank" href='https://pets.fulodev.com/'>
                         <img className="project-image" src={akita} alt='first project'/>
                         <div className='content'>
                             <h3>Petful</h3>
                         </div>
-                    </Link>
+                    </a>
                 </div>
                 <div className="project-card">
-                    <Link to='https://www.portfolio.fulodev.com/'>
+                    <a rel="noopener noreferrer" target="_blank" href='https://www.portfolio.fulodev.com/'>
                         <img className="project-image" src={design} alt='second project'/>
                         <div className='content'>
                             <h3>Figma Design</h3>
                         </div>
-                    </Link>
+                    </a>
                 </div>
             </div>
 

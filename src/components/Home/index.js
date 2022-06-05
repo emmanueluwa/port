@@ -48,7 +48,8 @@ const Home = () => {
                 <div className="blog">
                     <h1>BLOG</h1>
                     <h2>I sometimes blog about things that interest me.</h2>
-                    <Link to="/blog" className='flat-button'>BLOG</Link>    
+                    <a className='flat-button' target="_blank" rel="noreferer" href="https://www.fulodev.com/blog"
+                    >BLOG</a> 
                 </div>
             </div>
             <div className='stage-cube-cont'>

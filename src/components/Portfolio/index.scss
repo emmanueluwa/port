@@ -179,13 +179,13 @@ body {
   .project-card {
     width: 100%;
     align-items: center;
+    h3 {
+        display: none;
+      }
   }
 
   .project-card img {
     flex-grow: 1;
   }
 
-  .room__preview {
-    width: 80%;
-  }
 }
